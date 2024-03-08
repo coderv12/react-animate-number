@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npm i @hardiknaik/react-animate-number
+npm i @coderv12/react-animate-number
 ```
 
 ## Usage
