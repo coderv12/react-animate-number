@@ -7,7 +7,7 @@ import numberList from "./numberList";
 const formatForDisplay = (number: number, decimal: number, comma: Boolean) => {
   decimal = Math.abs(decimal);
   const strNum: String = comma
-    ? Math.max(number).toLocaleString("en-IN", {
+    ? Math.max(number).toLocaleString("en", {
         minimumFractionDigits: decimal,
         maximumFractionDigits: decimal,
       })

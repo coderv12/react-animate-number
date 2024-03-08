@@ -27,7 +27,7 @@ type Story = StoryObj<typeof AnimatedNumbers>;
 export const Primary: Story = {
   // More on args: https://storybook.js.org/docs/react/writing-stories/args
   args: {
-    number: 1203,
+    number: 12034,
     style: {
       fontSize: 20,
       // ["--duration" as string]: "1000ms",
